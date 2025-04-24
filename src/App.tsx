@@ -1,4 +1,3 @@
-import "./App.css";
 import { ChipList, TooltipProvider } from "@redislabsdev/redis-ui-components";
 import { theme } from '@redislabsdev/redis-ui-styles';
 import { ThemeProvider } from "styled-components";
