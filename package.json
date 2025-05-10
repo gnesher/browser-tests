@@ -12,7 +12,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "test-ct": "playwright test -c playwright-ct.config.ts"
+    "test-ct": "playwright test -c playwright-ct.config.ts test-playwright/",
+    "test-ct:ui": "playwright test -c playwright-ct.config.ts test-playwright/ --ui"
   },
   "dependencies": {
     "@redislabsdev/redis-ui-components": "^35.6.5",
