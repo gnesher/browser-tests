@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:browser": "vitest"
+    "test:browser": "vitest",
+     "test:headless": "vitest run --browser.headless"
   },
   "dependencies": {
     "@redislabsdev/redis-ui-components": "^35.6.5",
