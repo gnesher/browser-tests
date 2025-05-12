@@ -1,6 +1,14 @@
 {
+  "compilerOptions": {
+    "types": [
+      "@vitest/browser/providers/playwright",
+      "@types/react",
+      "@types/react-dom",
+      "@types/styled-components"
+    ]
+  },
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.app.json" }
   ]
 }
